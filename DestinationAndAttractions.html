@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Destinations And Attractions - Eastern Samar Tourism
+    </title>
+
+    <style>
+        html {
+            scroll-snap-type: y mandatory;
+        }
+
+        body {
+            margin: 5px 0px 0px 0px;
+        }
+
+        .touristOne {
+            background-color: beige;
+        }
+
+        .touristTwo {
+            background-color: ivory;
+        }
+
+        .header {
+            display: flex;
+            height: 200px;
+            scroll-snap-align: start;
+            scroll-snap-stop: normal;
+            background-color: beige;
+            border-bottom: 1px solid;
+        }
+
+        .titleLogo {
+            display: inline-block;
+            font-size: 40px;
+            font-weight: bolder;
+            padding-top: 70px;
+            padding-left: 20px;
+        }
+
+        .searchBar {
+            display: flex;
+            padding-bottom: 75px;
+            padding-top: 75px;
+        }
+
+        .searchBar input {
+            width: 250px;
+            margin-right: 3px;
+        }
+
+        .menu {
+            display: inline;
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: right;
+            padding-top: 70px;
+            padding-right: 20px;
+        }
+
+        .menu button {
+            height: 40px;
+            background-color: beige;
+            border-top: none;
+            border-right: 1px solid;
+            border-bottom: none;
+            border-left: 1px solid;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .header div {
+            flex: 1;
+            justify-content: center;
+        }
+
+        .mainBody {
+            display: flex;
+            justify-content: center;
+            scroll-snap-align: start;
+            scroll-snap-stop: normal;
+        }
+
+        .displayCase {
+            display: inline;
+            width: 1300px;
+            height: 98vh;
+            padding: 10px;
+        }
+
+        .name {
+            height: 60px;
+            font-size: 40px;
+            font-weight: bold;
+            padding-left: 5px;
+            padding-top: 25px;
+            width: 95.6%;
+            margin-bottom: 10px;
+            text-align: center;
+            color: black;
+        }
+
+        .picture {
+            display: inline-block;
+            width: 45%;
+            height: 82%;
+            align-content: center;
+            background-color: beige;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+
+        .description {
+            display: inline-block;
+            vertical-align: top;
+            width: 45;
+            height: 80%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            background-color: beige;
+            border-radius: 10px;
+            border: 1px solid;
+        }
+
+        .mainBody img {
+            display: flex;
+            justify-self: center;
+            height: 300px;
+            margin-bottom: 15px;
+            width: 300px;
+            border-radius: 30px;
+            border: 1px solid black;
+        }
+
+        .qoute {
+            margin-bottom: 50px;
+        }
+
+        ul {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-size: large;
+        }
+
+        button:hover {
+            transition: 0.5s;
+            cursor: pointer;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The header of the page -->
+    <div class="header">
+        <div class="titleLogo">Destinations and Attractions</div>
+        <div class="searchBar"><input type="text" placeholder="Search" /> <button>Search</button></div>
+        <div class="menu">
+            <button onclick="window.location.href='Tourism.html'" target="_blank">Homepage</button>
+
+            <button onclick="window.location.href='travelguide.html'" target="_blank">Travel Guide</button>
+
+            <button onclick="window.location.href='Gallery.html'" target="_blank">Gallery</button>
+        </div>
+    </div>
+
+    <!-- This is the first content-->
+    <div class="touristOne" style="
+        background-image: url(images/seaofgas.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+        <div class="mainBody">
+            <div class="displayCase">
+                <div class="name">Hebacong Sea of Clouds</div>
+
+                <div class="picture"><img src="images/cloud.jpeg" /><img src="images/clouds2.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A breathtaking upland destination where the morning
+                                clouds float
+                                like a sea.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Hebacong Sea of Clouds is an eco-tourism site in Barangay Hebacong, <br> Borongan City,
+                                Eastern Samar. It is known for its scenic mountain views <br> and the stunning cloud
+                                formations that appear especially at dawn. The <br> place also features viewing decks
+                                and visitor facilities for tourists.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular because visitors can enjoy a beautiful “sea of clouds” view, <br>
+                                especially in
+
+                                the early morning. Many people also visit because it is a <br> relaxing nature spot,
+                                easy
+                                to
+                                appreciate, and a rising tourist attraction in <br> Eastern Samar.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Hebacong Sea of Clouds special is its natural cloud scenery <br> that makes
+                                the
+                                mountains look like floating islands. It also stands out as <br> an eco-tourism site
+                                that
+
+                                promotes nature appreciation and community <br> development.
+                            </li>
+                        </ul>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the second content -->
+    <div class="touristTwo" style="
+        background-image: url(images/calicoan3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+        <div class="mainBody">
+            <div class="displayCase">
+                <div class="name">Calicoan Island</picture>
+                </div>
+                <div class="picture"><img src="images/calicoan.jpg" /><img src="images/calicoan2.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A tropical paradise known for its white sand
+                                beaches, clear
+                                waters, and surf.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Calicoan Island is a scenic island destination in Guiuan, Eastern Samar. It <br> is
+                                known for
+
+                                its pristine beaches, lush greenery, lagoons, caves, and <br> relaxing coastal views,
+                                making
+                                it a favorite spot for <br> both adventure and nature lovers.
+
+
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular because of its beautiful beaches, surfing spots, and peaceful <br> island
+                                atmosphere. Many visitors also come for swimming, island hopping, <br> caving, and
+                                enjoying
+                                the island’s natural scenery.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Calicoan Island special is its mix of natural attractions in one <br> place.
+                                From
+                                white sand shores and lagoons to caves and forested areas. It is <br> also known as the
+                                “Surfing Capital of the Visayas,” which adds to its charm <br> and appeal.
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the third content -->
+    <div class="touristOne">
+        <div class="mainBody" style="
+        background-image: url(images/church.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+
+            <div class="displayCase">
+                <div class="name">Sulangan Church</picture>
+                </div>
+                <div class="picture"><img src="images/church2.jpg"><img src="images/church3.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A peaceful pilgrimage site known for faith, prayer,
+                                and
+                                devotion.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Sulangan Church, also known as the Shrine of St. Anthony of Padua, is a <br> Roman
+                                Catholic
+
+                                church in Sulangan, Guiuan, Eastern Samar. It is a <br> well-known religious site
+                                visited by
+
+                                devotees and pilgrims who come <br> to pray and attend mass.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular because many people believe St. Anthony of Padua grants <br> prayers and
+                                intercedes for lost things, healing, and blessings. The church <br>also attracts
+                                visitors
+                                because it is an important pilgrimage destination <br> in Eastern Samar.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Sulangan Church special is its strong spiritual significance <br> and its
+                                reputation as a miraculous church. It is also a meaningful place <br>of devotion for
+                                many
+
+                                Catholics, especially during feast days and special <br> visits of thanksgiving.
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the fourth content -->
+    <div class="touristTwo">
+        <div class="mainBody" style="
+        background-image: url(images/hilangagan3.1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+
+            <div class="displayCase">
+                <div class="name">Hilangagan Sandy Beach</picture>
+                </div>
+                <div class="picture"><img src="images/hilangagan.jpg"><img src="images/hilangagan2.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A serene coastal escape with soft sands and calming
+                                ocean
+                                views.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Hilangagan Sandy Beach is a quiet beach destination in Eastern Samar, known <br> for its
+                                long
+
+                                stretch of fine sand and clear coastal waters. It offers a peaceful <br> environment
+                                ideal
+
+                                for relaxation and simple seaside activities.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular among locals and visitors looking for a less crowded beach <br>
+                                experience.
+
+                                People come to enjoy swimming, picnics, and the calm, laid-back <br> atmosphere away
+                                from
+
+                                busy tourist spots.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Hilangagan Sandy Beach special is its natural simplicity and <br> unspoiled
+                                charm.
+
+                                Its tranquil setting and wide sandy shoreline make it a perfect <br>place for
+                                relaxation,
+
+                                reflection, and enjoying nature.
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the fifth content -->
+    <div class="touristOne">
+        <div class="mainBody" style="
+        background-image: url(images/sohoton3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+
+            <div class="displayCase">
+                <div class="name">Sohoton Caves and Natural Bridge Park</picture>
+                </div>
+                <div class="picture"><img src="images/sohoton.jpg"><img src="images/sohoton2.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A natural wonder of caves, rivers, and a
+                                bridge.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Sohoton Caves and Natural Bridge Park is a protected natural attraction <br> in Basey,
+                                Samar.
+
+                                It features limestone caves, underground rivers, waterfalls, <br> thick forest, and a
+                                famous
+
+                                natural stone bridge formed by erosion over time. <br> The park covers about 840 to 841
+                                hectares and is part of the Samar <br> Island Natural Park.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular because of its unique scenery and adventure activities. Visitors <br>
+                                often
+
+                                come for guided boat rides, cave exploration, and kayaking while <br> enjoying the
+                                park’s
+
+                                dramatic limestone formations and river views.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Sohoton special is its rare mix of natural features in one <br> destination,
+                                especially its iconic natural stone bridge and cathedral-like caves. <br> It is also
+                                known
+
+                                for its rich ecosystem and historical significance, making it <br> one of Samar’s most
+                                remarkable eco-tourism sites.
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the sixth content -->
+    <div class="touristTwo">
+        <div class="mainBody" style="
+        background-image: url(images/tinago3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        ">
+
+            <div class="displayCase">
+                <div class="name">Tinago Waterfalls</picture>
+                </div>
+                <div class="picture"><img src="images/tinago.jpg"><img src="images/tinago2.jpg"></div>
+                <div class="description">
+                    <div class="qoute" style="font-size: 20px"><b><i>A hidden waterfall gem surrounded by lush forest
+                                and a turquoise
+                                pool.</i></b></div>
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>Tinago Falls is a famous waterfall in Iligan City, Lanao del Norte. Its name <br>means
+                                “hidden,” and it sits deep inside a ravine, where visitors must <br> descend a long
+                                staircase
+
+                                before reaching the falls. The waterfall drops <br> about 240 feet into a clear
+                                blue-green
+                                basin
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Why it's Popular</b></li>
+                        <ul>
+                            <br>
+                            <li>It is popular because of its dramatic scenery and adventure-like access. Many <br>
+                                visitors
+                                come to swim, take bamboo raft rides, and enjoy the cool, refreshing <br> water and
+                                natural
+                                setting.
+                            </li>
+                        </ul>
+                    </ul>
+
+                    <ul>
+                        <li><b>Description of the place</b></li>
+                        <ul>
+                            <br>
+                            <li>What makes Tinago Falls special is its secluded location and striking beauty. The <br>
+                                combination of its towering cascade, forested ravine, and vibrant pool gives it a <br>
+                                peaceful yet majestic feel that stands out among Philippine waterfalls.
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Gallery - Eastern Samar Tourism</title>
+    <style>
+        html {
+            scroll-snap-type: y mandatory;
+        }
+
+        body {
+            background-color: beige;
+        }
+
+        .menu button {
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 10px;
+            background-color: white;
+            border-top: none;
+            border-right: 1px solid;
+            border-bottom: none;
+            border-left: 1px solid;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        button:hover {
+            transition: 0.5s;
+            cursor: pointer;
+            background-color: beige;
+        }
+
+        .front {
+            height: 100vh;
+            background-image: url(images/cover.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            scroll-snap-align: start;
+            scroll-snap-stop: normal;
+        }
+
+        .content-container {
+            height: 98vh;
+            scroll-snap-align: start;
+            scroll-snap-stop: normal;
+
+        }
+
+        .content-name {
+            display: flex;
+            height: 16vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .destination-information {
+            display: flex;
+            height: 40vh;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .destination-information div {
+            width: 50%;
+            margin: 10px;
+        }
+
+        .caption-destination {
+            display: flex;
+            font-size: 40px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .tourism-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-top-right-radius: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            height: 40vh;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .image-container div {
+            width: 50vh;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        img {
+            height: 80%;
+            width: 80%;
+            border-radius: 20px;
+            border: 1px solid;
+            transition: 0.2s;
+        }
+
+        img:hover {
+            height: 100%;
+            width: 100%;
+            cursor: zoom-in;
+        }
+
+        video {
+            border-radius: 20px;
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="front">
+        <div class="menu">
+            <button onclick="window.location.href='Tourism.html'" target="_blank">Homepage</button>
+
+            <button onclick="window.location.href='DestinationAndAttractions.html'">Explore</button>
+
+            <button>Travel Guide</button>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Hebacong Sea of Clouds </h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Perched atop the mist-kissed hills of Borongan, Hebacong Sea of Clouds offers a breathtaking morning spectacle where rolling clouds drift like a silent ocean beneath your feet, inviting you to marvel at nature's quiet magic."</i></div>
+            <div class="tourism-video"><video src="video/hebacong.mp4#t=120,215" controls autoplay muted loop></video>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/galleryhebacong1.jpg"></div>
+            <div class="image"><img src="gallery/galleryhebacong2.jpg"></div>
+            <div class="image"><img src="gallery/galleryhebacong3.webp"></div>
+            <div class="image"><img src="gallery/galleryhebacong4.jpg"></div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Calicoan Island</h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Dubbed the 'Surfing Capital of the Visayas,' Calicoan Island in Eastern Samar is a tropical paradise where powdery white-sand beaches, crystal-clear lagoons, lush forests, and world-class surf breaks come together to create a laid-back yet adventure-filled escape for nature lovers, surfers, and seekers of island serenity."</i></div>
+            <div class="tourism-video"><video src="video/Calicoan.mp4#t=0,64" controls autoplay muted loop></div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/gallerycalicoan1.jpg"></div>
+            <div class="image"><img src="gallery/gallerycalicoan2.jpg"></div>
+            <div class="image"><img src="gallery/gallerycalicoan3.jpg"></div>
+            <div class="image"><img src="gallery/gallerycalicoan4.jpg"></div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Sulangan Church</h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Perched on the tranquil island of Sulangan at the southern tip of Samar, the Shrine of St. Anthony of Padua, called Sulangan Church, is a beloved pilgrimage site where thousands of devotees light candles, offer prayers, and seek the miraculous intercession of their patron saint, whose protection is said to have sheltered the community even through the fiercest storms."</i></div>
+            <div class="tourism-video"><video src="video/Sulangan.mp4#t=3" controls autoplay muted loop></div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/gallerysulangan1.jpg"></div>
+            <div class="image"><img src="gallery/gallerysulangan2.jpg"></div>
+            <div class="image"><img src="gallery/gallerysulangan3.jpg"></div>
+            <div class="image"><img src="gallery/gallerysulangan4.jpg"></div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Hilangagan Sandy Beach</h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Tucked away in Barangay Punta Maria, Borongan City, Hilangagan Beach is a secluded white-sand haven framed by towering limestone cliffs and reached by a short 77-step descent, offering visitors a peaceful, postcard-perfect escape where calm turquoise waters meet soft shores under an open Eastern Samar sky."</i></div>
+            <div class="tourism-video"><video src="video/Hilangagan.mp4#t=0,33" controls autoplay muted loop></video>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/galleryhilangagan1.jpg"></div>
+            <div class="image"><img src="gallery/galleryhilangagan2.jpg"></div>
+            <div class="image"><img src="gallery/galleryhilangagan3.jpg"></div>
+            <div class="image"><img src="gallery/galleryhilangagan4.jpg"></div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Sohoton Caves and Natural Bridge Park</h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Nestled in the verdant heart of Basey, Samar, Sohoton Cave reveals a hidden world of towering stalactites, cathedral-like chambers, and ancient limestone formations, where visitors can explore underground rivers, swim in natural pools, and walk through passages once used as burial grounds and revolutionary hideouts—making it a breathtaking blend of natural wonder and living history."</i></div>
+            <div class="tourism-video"><video src="video/Sohoton.mp4#t=19,113" controls autoplay muted loop></div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/gallerysohoton1.jpg"></div>
+            <div class="image"><img src="gallery/gallerysohoton2.jpg"></div>
+            <div class="image"><img src="gallery/gallerysohoton3.jpg"></div>
+            <div class="image"><img src="gallery/gallerysohoton4.jpg"></div>
+        </div>
+    </div>
+
+    <div class="content-container">
+        <div class="content-name">
+            <h1>Tinago Falls</h1>
+        </div>
+
+        <div class="destination-information">
+            <div class="caption-destination"><i>"Hidden deep within a forested ravine between Linamon and Iligan City in Lanao del Norte, Tinago Falls lives up to its name “tinago” meaning “hidden” in Tagalog as a 240-foot cascade that plunges dramatically into a turquoise basin, reachable only after descending hundreds of winding steps through lush jungle, making every visit feel like a rewarding secret discovered."</i></div>
+            <div class="tourism-video"><video src="video/Tinago.mp4#t=0,55" controls autoplay muted loop></div>
+        </div>
+
+        <div class="image-container">
+            <div class="image"><img src="gallery/gallerytinago1.jpg"></div>
+            <div class="image"><img src="gallery/gallerytinago2.jpg"></div>
+            <div class="image"><img src="gallery/gallerytinago3.jpg"></div>
+            <div class="image"><img src="gallery/gallerytinago4.jpg"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
